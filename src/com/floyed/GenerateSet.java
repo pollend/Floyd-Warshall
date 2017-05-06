@@ -20,34 +20,49 @@ public class GenerateSet {
         Generate(small_template,small_mapping_template,1,100);
         Generate(small_template,small_mapping_template,2,100);
         Generate(small_template,small_mapping_template,4,100);
-        Generate(small_template,small_mapping_template,6,100);
         Generate(small_template,small_mapping_template,8,100);
-        Generate(small_template,small_mapping_template,10,100);
+        Generate(small_template,small_mapping_template,16,100);
 
         String medium_template = "test/medium/medium-%1s-%2s.txt";
         String[] medium_mapping_template = new String[]{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p"};
         Generate(medium_template,medium_mapping_template,1,100);
         Generate(medium_template,medium_mapping_template,2,100);
         Generate(medium_template,medium_mapping_template,4,100);
-        Generate(medium_template,medium_mapping_template,6,100);
         Generate(medium_template,medium_mapping_template,8,100);
-        Generate(medium_template,medium_mapping_template,10,100);
+        Generate(medium_template,medium_mapping_template,16,100);
+        Generate(medium_template,medium_mapping_template,32,100);
+        Generate(medium_template,medium_mapping_template, 64,100);
+        Generate(medium_template,medium_mapping_template,128,100);
 
         String large_template = "test/large/large-%1s-%2s.txt";
-        String[] large_mapping_template = new String[]{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p"};
+        String[] large_mapping_template = new String[]{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
         Generate(large_template,large_mapping_template,1,100);
         Generate(large_template,large_mapping_template,2,100);
         Generate(large_template,large_mapping_template,4,100);
         Generate(large_template,large_mapping_template,6,100);
         Generate(large_template,large_mapping_template,8,100);
-        Generate(large_template,large_mapping_template,20,100);
-        Generate(large_template,large_mapping_template,50,100);
-        Generate(large_template,large_mapping_template,70,100);
-        Generate(large_template,large_mapping_template,80,100);
-        Generate(large_template,large_mapping_template,90,100);
-        Generate(large_template,large_mapping_template,100,100);
-        Generate(large_template,large_mapping_template,200,100);
+        Generate(large_template,large_mapping_template,16,100);
+        Generate(large_template,large_mapping_template,32,100);
+        Generate(large_template,large_mapping_template,64,100);
+        Generate(large_template,large_mapping_template,128,100);
+        Generate(large_template,large_mapping_template,256,100);
+        Generate(large_template,large_mapping_template,512,100);
 
+        String very_large_template = "test/verylarge/verylarge-%1s-%2s.txt";
+        String[] very_large_mapping_template = new String[]{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","aa","ab","ac","ad","ae","af","ag","ah","ai","aj","ak","al","am","an","ao","ap","aq","ar","as","at","au","av","aw","ax","ay","az"};
+        Generate(very_large_template,very_large_mapping_template,1,100);
+        Generate(very_large_template,very_large_mapping_template,2,100);
+        Generate(very_large_template,very_large_mapping_template,4,100);
+        Generate(very_large_template,very_large_mapping_template,6,100);
+        Generate(very_large_template,very_large_mapping_template,8,100);
+        Generate(very_large_template,very_large_mapping_template,16,100);
+        Generate(very_large_template,very_large_mapping_template,32,100);
+        Generate(very_large_template,very_large_mapping_template,64,100);
+        Generate(very_large_template,very_large_mapping_template,128,100);
+        Generate(very_large_template,very_large_mapping_template,256,100);
+        Generate(very_large_template,very_large_mapping_template,512,100);
+        Generate(very_large_template,very_large_mapping_template,1024,100);
+        Generate(very_large_template,very_large_mapping_template,2048,100);
     }
 
     public  static  void  Generate(String file,String[] mapping,int numberOfConnection,int maxWeight) throws FileNotFoundException {

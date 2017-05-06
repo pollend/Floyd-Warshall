@@ -1,0 +1,10 @@
+a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,aq,ar,as,at,au,av,aw,ax,ay,az
+ab->w,51
+g->au,78
+h->ar,32
+w->d,51
+g->ab,64
+ax->ak,69
+am->v,26
+aw->h,57
+aa->o,93
